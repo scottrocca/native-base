@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/native-base/static/css/main.073c9b0a.css",
-    "main.js": "/native-base/static/js/main.1640d5f4.js",
+    "main.css": "/native-base/static/css/main.e6c13ad2.css",
+    "main.js": "/native-base/static/js/main.3ba3a846.js",
     "static/js/787.62452bf0.chunk.js": "/native-base/static/js/787.62452bf0.chunk.js",
-    "static/media/logo.svg": "/native-base/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/native-base/index.html",
-    "main.073c9b0a.css.map": "/native-base/static/css/main.073c9b0a.css.map",
-    "main.1640d5f4.js.map": "/native-base/static/js/main.1640d5f4.js.map",
+    "main.e6c13ad2.css.map": "/native-base/static/css/main.e6c13ad2.css.map",
+    "main.3ba3a846.js.map": "/native-base/static/js/main.3ba3a846.js.map",
     "787.62452bf0.chunk.js.map": "/native-base/static/js/787.62452bf0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1640d5f4.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3ba3a846.js"
   ]
 }
