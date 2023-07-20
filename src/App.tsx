@@ -1,26 +1,45 @@
-import React from 'react'
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  NativeBaseProvider,
+  Text,
+  Checkbox,
+  Button,
+  VStack,
+  Spinner,
+} from "native-base";
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <NativeBaseProvider>
+      <VStack space={15}>
+        <Text fontWeight="medium" color="black" fontSize="1.3rem">
+          Welcome to Your React NativeBase Demo
+        </Text>
+        <VStack
+          alignItems="center"
+          justifyContent="center"
+          ml="5"
+          mr="5"
+          h="600"
+          px="3"
+          py="2"
+          mb={["4", "5"]}
+          bg="primary.400"
+          rounded="lg"
+          space={4}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  )
-}
+          <Text fontWeight="medium" color="white" fontSize="sm">
+            This is your super awesome React NativeBase Demo
+          </Text>
+          <Checkbox shadow={2} value="test">
+            You did it!
+          </Checkbox>
+          <Spinner color="#1DA1F2" />
+          <Button>A NativeBase Button</Button>
+        </VStack>
+      </VStack>
+    </NativeBaseProvider>
+  );
+};
 
-export default App
+export default App;
